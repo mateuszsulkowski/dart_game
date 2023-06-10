@@ -36,3 +36,95 @@ body{
 .enter_button{
     display: none;
 }
+.pick{
+    display: none;
+}
+.pick1{
+    display: none;
+}
+.pick2{
+    display: none;
+}
+.pick3{
+    display: none;
+}
+.player_name{
+    display: none;
+}
+.tournament{
+    display: none;
+}
+.name_submit{
+    display: none;
+}
+.Game_start{
+    display: none;
+}
+.dart_board {
+    position: relative;
+    width: 500px; 
+    height: 500px;
+    border: 1px solid black;
+    /*border-radius: 50%;*/
+  }
+  
+  .dart_board1 {
+    position: absolute;
+    top: 50%;
+    left: 50%; 
+    transform: translate(-50%, -50%);
+    width: 90%; 
+    padding-bottom: 90%;
+    background-color: red;
+    /*border-radius: 50%;*/
+  }
+  .dart_board2 {
+    position: absolute;
+    top: 50%; 
+    left: 50%; 
+    transform: translate(-50%, -50%); 
+    width: 80%; 
+    padding-bottom: 80%; 
+    background-color: black; 
+    /*border-radius: 50%;*/
+  }
+  .dart_board3 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); 
+    width: 50%;
+    padding-bottom: 50%; 
+    background-color: red; 
+    /*border-radius: 50%;*/
+  }
+  .dart_board4 {
+    position: absolute;
+    top: 50%; 
+    left: 50%; 
+    transform: translate(-50%, -50%); 
+    width: 40%; 
+    padding-bottom: 40%; 
+    background-color: black; 
+    /*border-radius: 50%;*/
+  }
+  .dart_board5 {
+    position: absolute;
+    top: 50%; 
+    left: 50%; 
+    transform: translate(-50%, -50%); 
+    width: 15%; 
+    padding-bottom: 15%; 
+    background-color: greenyellow; 
+    /*border-radius: 50%;*/
+  }
+  .dart_board6 {
+    position: absolute;
+    top: 50%; 
+    left: 50%; 
+    transform: translate(-50%, -50%);
+    width: 5%; 
+    padding-bottom: 5%; 
+    background-color: red; 
+    /*border-radius: 50%;*/
+  }

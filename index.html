@@ -9,9 +9,9 @@
     <title>Dart-gra</title>
 </head>
 <body>
-<div id="Game_start">
+<div>
     <div>
-        <button class="enter_button" type="button" id="Enter">Enter a game</button>
+        <button class="enter_button" type="button" id="Enter">Start a game</button>
     </div>
         <audio src = "muzyka-intro.mp4" id="intro_music" autoplay loop></audio>
         <audio src = "Pitbull - Feel This Moment (Official Video) ft. Christina Aguilera.mp4" id="start_music" loop muted></audio>
@@ -26,7 +26,37 @@
     <div>
         <button type="button" id="skipIntro">SKIP INTRO</button>
     </div>
-   
+   <div>
+        <button class="pick" type="button" id="tryb">Wybierz tryb gry</button>
+        <button class="pick1" type="button" id="tryb1">Kariera</button>
+        <button class="pick2" type="button" id="tryb2">Szybki mecz</button>
+        <button class="pick3" type="button" id="tryb3">Turniej</button>
+   </div>
+   <div>
+        <label class="player_name" id="name">
+            <label id="player_name">Podaj imie zawodnika:</label><input type="text" id="name_text"><br>
+            <button type="submit" id="name_submit">Potwierdź</button> 
+            <div id="print_name"></div>
+            <button class="Game_start" type="button" id="start">Rozpocznij gre</button>
+        </label>
+   </div>
+   <div>
+    <label class="tournament" id="turniej">
+        <input type="radio" name="tournament_pick">PDC World Darts Championship<br>
+        <input type="radio" name="tournament_pick">Premier League<br>
+        <input type="radio" name="tournament_pick">World Matchplay<br>
+        <input type="radio" name="tournament_pick">UK Open<br>
+        <input type="radio" name="tournament_pick">World Grand Prix<br>
+    </label>
+    <div class="dart_board" id="tarcza">
+        <div class="dart_board1"></div>
+        <div class="dart_board2"></div>
+        <div class="dart_board3"></div>
+        <div class="dart_board4"></div>
+        <div class="dart_board5"></div>
+        <div class="dart_board6"></div>
+    </div>
+</div>
 </div>
     <script src="index.js"></script>
 </body>
